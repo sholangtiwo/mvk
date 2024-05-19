@@ -1,0 +1,3 @@
+frontrnd : html css js
+backend : php
+database : sql
