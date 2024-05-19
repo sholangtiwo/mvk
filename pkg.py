@@ -44,9 +44,5 @@ for theme in THEMES:
             pkg.write(int2bytes(cur))
             pkg.seek(cur)
 
-            #temporary
-            if item == DEFBG.png:
-                print("here")
-
             with open(os.path.join(RES_DIR, item), 'rb') as fd:
                 pkg.write(fd.read())
